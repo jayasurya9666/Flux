@@ -3,7 +3,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: spring-boot-hello
-  namespace: springboot
+  namespace: project1
 spec:
   type: LoadBalancer
   selector:
