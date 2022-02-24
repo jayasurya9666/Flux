@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: spring-boot-hello
-  namespace: flux
+  namespace: project1
   labels:
     app: spring-boot-hello
 spec:
